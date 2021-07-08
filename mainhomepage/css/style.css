@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* 상단 바 */
+.header {width: 100%; height: 80px; position: fixed; background: white;}
+.header .header_ {display: flex; align-items: center; flex-grow: 1; flex-shrink: 0; float: left;}
+.header .headwrap {overflow:hidden;height: 80px; width: 60%; position: absolute; left: 20%}
+.header .headwrap .header_.left {width:50%; height: 80px; justify-content: flex-start; }
+.header .header_ .left .company_img a {}
+.header .headwrap .header_.right {width:50%;height: 80px;justify-content: flex-end; }
+.header .headwrap .header_.right li {float: left; font-weight: bold;}
+/* //상단 바 */
+.main {width: 100%; height: 2045.43px}
+.main .main_head {width: 100%; height: 506px; background: #444;}
+.main .main_nav {width: 100%; height: 230px; background: #888;}
+.main .main_game {width: 100%; height: 483.43px; background: #555;}
+.main .main_ban {width: 100%; height: 556px; background: url(../img/gamepub_people_bg2.jpg) no-repeat;
+position: relative; z-index: -1; background-position: center;}
+.main .main_ban .wrapper {width: 100%;color: white; position: absolute; top:40%;z-index: 1;text-align: center;}
+.main .main_notice {width: 100%; height: 330px; background: #777;}
+
+.footer {width: 100%; height: 133.33px; background: #999;}
